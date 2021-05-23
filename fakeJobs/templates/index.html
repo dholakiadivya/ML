@@ -1,0 +1,11 @@
+<form action="predict" method='POST'>
+
+    {% csrf_token %}
+
+    Title : <input type="text" name = "title"><br><br>
+    Company profile <input type="text" name = "company_profile"><br><br>
+    Desc <input type="text" name = "description"><br><br>
+    Requirements <input type="text" name = "requirements"><br><br>
+    Benefits <input type="text" name = "benefits"><br><br>
+    <input type="submit">
+</form>
