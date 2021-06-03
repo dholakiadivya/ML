@@ -1,0 +1,122 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+
+<style type="text/css">
+
+html,
+body {
+  background-color: lightblue;
+}
+
+body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.margin {
+  margin: 0 !important;
+}
+</style>
+
+
+<div class="form">
+  
+  <div class="input-field col s6 center">
+    <img src="static/fraudbusters-logo-fin-16x9-1.jpg" width="400" alt="logo">
+    
+  </div>
+    <ul class="tab-group">
+      
+      
+    </ul>
+    
+    
+        
+        <form action="predict" method='POST'>
+          {% csrf_token %}
+        <div class="top-row">
+          <div class="field-wrap">
+            <label style="color:black;">
+              <b>Title <span class="req">*</span></b>
+            </label>
+            <input type="text" required autocomplete="off" name = "title"/>
+          </div>
+      
+          <div class="field-wrap">
+            <label style="color:black;" >
+              <b>Company Profile <span class="req">*</span></b>
+            </label>
+            <input type="text"required autocomplete="off" name = "company_profile"/>
+          </div>
+        </div>
+
+        <div class="field-wrap">
+          <label style="color:black;">
+           <b>Description <span class="req">*</span></b>
+          </label>
+          <input type="text"required autocomplete="off" name = "description"/>
+        </div>
+        
+        <div class="field-wrap" >
+          <label style="color:black;">
+            <b>Requirements <span class="req">*</span></b>
+          </label>
+          <input type="text"required autocomplete="off" name = "requirements"/>
+        </div>
+
+        <div class="top-row">
+          <div class="field-wrap">
+            <label style="color:black;">
+              <b>Benefits <span class="req">*</span></b>
+            </label>
+            <input type="text" required autocomplete="off" name = "benefits"/>
+          </div>
+        <div class="field-wrap">
+            <label style="color:black;">
+                <b>Any Queries <span class="req">*</span></b>
+              </label>
+              <input type="checkbox" id="question" name = "has_questions" value="yes">
+              <label for="question"><b>YES</b></label>
+              <input type="checkbox" id="question1" name = "has_questions" value="no">
+              <label for="question1"><b>NO</b></label><br><br>
+          </div>
+          
+          <div class="field-wrap">
+            <label style="color:black;">
+            <b>Location <span class="req">*</span></b>
+            </label>
+            <input type="text"required autocomplete="off" name="loc"/>
+          </div>
+            <div class="field-wrap">
+            <label style="color:black;">
+              <b>Employment Type (part time/full time/other)<span class="req">*</span></b>
+            </label>
+            <input type="text"required autocomplete="off" name = "employment_type"/>
+          </div>
+          <div class="field-wrap">
+            <label style="color:black;">
+                <b>Salary Mentioned <span class="req">*</span></b>
+              </label>
+              <input type="checkbox" id="salary" name = "salary_range" value="yes">
+              <label for="salary"><b>YES</b></label>
+              <input type="checkbox" id="salary1" name = "salary_range" value="no">
+              <label for="salary1"><b>NO</b></label><br><br>
+          </div>
+
+        <button type="submit" class="button button-block">Get Started</button>
+        
+        </form>
+
+      </div>
+      
+      
+      
+      
+    </div>
+    
+</div> 

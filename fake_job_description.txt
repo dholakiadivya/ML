@@ -1,0 +1,30 @@
+title = 'Sales Executive'
+
+company_profile = 'Aker solution delivers integrated solutions, oil and products and services to customers'
+
+description = 'Aker solution delivers integrated solutions, oil and products and services to customers'
+
+requirements = 'The sales job requires experience and ability to ensure service, responsible for business and knowledge about product and communication skills'
+
+benefits = 'Aker solution oil and gas industry offers standard environment and help to develop skills , apply for work from home ,ensure knowledge'
+
+has_questions = 0
+
+employment_type = 'Full-time'
+
+loc = 'US'
+
+salary_range = 1
+
+#2
+title = early childhood educator
+
+description = the early childhood educator will be responsible for overall supervision and safety of children attending the program.Primary contribution will be the planning, organizing and delivery of activities specific to the needs of children from six months to five years of age
+
+requirements = early childhood educator diploma with infant and toddler specialty certificate.Food safety certificate.Medical note.Current first aid certificate
+
+salary range : 1
+
+no questions : 0
+
+full time
